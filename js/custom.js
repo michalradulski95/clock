@@ -103,7 +103,7 @@ partyEvent();
 
 let wakeUpTimeSelector = document.getElementById('wakeUpTimeSelector');
 var wakeUpEvent = function() {
-    wakeuptime = wakeUpTimeSelector.nodeValue;
+    wakeuptime = wakeUpTimeSelector.value;
 };
 
 wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
