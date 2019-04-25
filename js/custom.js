@@ -1,7 +1,7 @@
-const wakeuptime = 8;
+let wakeuptime = 8;
 const noon = 12;
 let lunchtime = 12;
-const naptime = lunchtime + 3;
+let naptime = lunchtime + 3;
 let partytime;
 const evening = 18;
 
