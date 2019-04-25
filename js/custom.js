@@ -101,7 +101,7 @@ partyEvent();
 
 //Wake-up selector
 
-const wakeUpTimeSelector = document.getElementById('wakeUpTimeSelector');
+let wakeUpTimeSelector = document.getElementById('wakeUpTimeSelector');
 var wakeUpEvent = function() {
     wakeuptime = wakeUpTimeSelector.nodeValue;
 };
@@ -110,7 +110,7 @@ wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
 
 //Lunch selector 
 
-const lunchTimeSelector = document.getElementById('wakeUpTimeSelector');
+let lunchTimeSelector = document.getElementById('wakeUpTimeSelector');
 
 var lunchEvent = function() {
     lunchtime = lunchTimeSelector.value;
@@ -120,7 +120,7 @@ lunchTimeSelector.addEventListener('change', lunchEvent);
 
 //Nap-time selector
 
-const napTimeSelector = document.getElementById('napTimeSelector');
+let napTimeSelector = document.getElementById('napTimeSelector');
 
 var napEvent = function() {
     naptime = napTimeSelector.value;
