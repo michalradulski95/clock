@@ -110,7 +110,7 @@ wakeUpTimeSelector.addEventListener('change', wakeUpEvent);
 
 //Lunch selector 
 
-let lunchTimeSelector = document.getElementById('wakeUpTimeSelector');
+let lunchTimeSelector = document.getElementById('lunchTimeSelector');
 
 var lunchEvent = function() {
     lunchtime = lunchTimeSelector.value;
